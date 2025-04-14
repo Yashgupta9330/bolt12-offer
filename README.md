@@ -44,8 +44,6 @@ GL_KEY_PATH=certs/client-key.pem
 ## Project Structure
 
 ```
-.
-
 ├── bol12-frontend/         #  username registration frontend
 │   ├── src/              # Source code
 │   │   ├── app/          # Main Page
