@@ -1,6 +1,6 @@
 # ⚡ BOLT12 Offer
 
-A Rust-based backend service to generate and manage [BOLT 12](https://github.com/lightning/bolts/blob/master/12-offer-encoding.md) Lightning Offers, integrated with [Blockstream Greenlight](https://docs.blockstream.com/greenlight/) for non-custodial node operations.
+A Rust-based backend service to generate and manage BOLT 12 Lightning Offers, integrated with Blockstream Greenlight for non-custodial node operations.
 
 ## 🚀 Features
 
@@ -35,6 +35,9 @@ Create a `.env` file in the root directory and define:
 ```env
 GL_CERT_PATH=certs/client.crt
 GL_KEY_PATH=certs/client-key.pem
+CLOUDFLARE_API=your_cloudflare_api_token
+CLOUDFLARE_ZONE_ID=your_cloudflare_zone_id
+DOMAIN=yourdomain.com
 ```
 ## Components
 
