@@ -44,13 +44,17 @@ GL_KEY_PATH=certs/client-key.pem
 ## Project Structure
 
 ```
-├── bol12-frontend/         #  username registration frontend
-│   ├── src/              # Source code
-│   │   ├── app/          # Main Page
-│   │   └── components/   # Create Offer
-├── bolt12-backend/   # Rust backend using Greenlight
-│   ├── src/              # Source code
-└── README.md             # This file
+.
+├── bolt12-frontend/        # Next.js frontend for username registration
+│   └── src/                
+│       ├── app/            # Main application pages and routing
+│       └── components/     # UI components like Create Offer form
+│
+├── bolt12-backend/         # Rust backend integrated with Greenlight
+│   └── src/                # Core logic for generating BOLT12 offers
+│
+└── README.md               # Project overview and setup instructions
+
 ```
 
 ## Features
