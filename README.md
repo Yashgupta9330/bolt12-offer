@@ -35,16 +35,15 @@ Create a `.env` file in the root directory and define:
 ```env
 GL_CERT_PATH=certs/client.crt
 GL_KEY_PATH=certs/client-key.pem
-
+```
 ## Components
 
 - **bolt12-frontend**: Frontend
 - **bolt12-backend**: Rust-based service for Greenlight integration
 
-## Project Structure
 
+## Project Structure
 ```
-.
 ├── bolt12-frontend/        # Next.js frontend for username registration
 │   └── src/                
 │       ├── app/            # Main application pages and routing
@@ -54,7 +53,6 @@ GL_KEY_PATH=certs/client-key.pem
 │   └── src/                # Core logic for generating BOLT12 offers
 │
 └── README.md               # Project overview and setup instructions
-
 ```
 
 ## Features
